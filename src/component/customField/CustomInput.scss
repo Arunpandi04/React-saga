@@ -1,0 +1,29 @@
+.input{
+    padding: 10px;
+}
+
+.input-field{
+    margin-left: 20px
+}
+.label-field{
+    width: 20%;
+}
+
+.text-font{
+    font-family:courier;
+    font-style: normal;
+    font-variant: small-caps;
+  }
+
+  @media screen and (max-width: 480px) {
+    .label-field{
+        display: block;
+        width: 20%;
+    } 
+  }
+
+  .icons{
+      position:absolute;
+      margin-left: -27px;
+      margin-top: 7px;
+  }
